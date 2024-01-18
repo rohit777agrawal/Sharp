@@ -1,6 +1,6 @@
 const LandingPage = () => {
     return (
-      <p>hellodasdas</p>
+      <p>hello there!</p>
     )
   }
   
