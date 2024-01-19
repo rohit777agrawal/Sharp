@@ -52,7 +52,7 @@ const routes = [
         icon: Settings,
         href: '/settings',
       },
-    ];
+];
 
 const Sidebar =() =>{
     const pathname = usePathname();
