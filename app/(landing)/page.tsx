@@ -1,10 +1,13 @@
+
 import { Button } from "@/components/ui/button";
+import { UserButton } from "@clerk/nextjs";
 import Link from "next/link";
 
 
 const LandingPage = () => {
     return (
       <div>
+        <UserButton afterSignOutUrl="/"/>
         <Link href="/sign-in">
           <Button>
             Login
