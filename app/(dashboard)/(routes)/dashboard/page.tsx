@@ -3,7 +3,7 @@ import { ArrowRight } from "lucide-react";
 import { Card } from "@/components/ui/card";
 
 import { cn } from "@/lib/utils";
-import { Code, ImageIcon,MessageSquare, Music,VideoIcon } from "lucide-react";
+import { Code, ImageIcon,MessageSquare, Music,VideoIcon, Speech } from "lucide-react";
 import { useRouter } from "next/navigation";
 
 //import { tools } from "@/constants";
@@ -37,6 +37,13 @@ const tools = [
     color: "text-emerald-500",
     bgColor: "bg-orange-700/10",
     href: '/music'
+  },
+  {
+    label: 'Speech Generation',
+    icon: Speech,
+    color: "text-violet-500",
+    bgColor: "bg-violet-500/10",
+    href: "/speech"
   },
   {
     label: 'Code Generation',
